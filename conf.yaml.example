@@ -1,0 +1,11 @@
+---
+d42:
+  server: '' 
+  user: '' 
+  pass: '' 
+  verify_certificate: false
+
+drp:
+  server: ''
+  user: ''
+  pass: ''
