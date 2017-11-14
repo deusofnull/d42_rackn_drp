@@ -1,7 +1,7 @@
 import requests
 
 
-class DRP_Agent(object):
+class D42_Agent(object):
 
     def __init__(self, server, user, pwd):
         self.base = server
@@ -13,7 +13,7 @@ class DRP_Agent(object):
         response = requests.get(
             self.base + url,
             headers=headers,
-            auth=('rocketskates', 'r0cketsk8ts'),
+            auth=(self.user, self.pwd),
             params=params,
         )
 

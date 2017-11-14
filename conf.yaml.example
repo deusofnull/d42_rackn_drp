@@ -2,10 +2,10 @@
 d42:
   server: '' 
   user: '' 
-  pass: '' 
+  pwd: '' 
   verify_certificate: false
 
 drp:
   server: ''
   user: ''
-  pass: ''
+  pwd: ''
